@@ -11,6 +11,7 @@
 <body>
 <div>
     <?php
+    // isset é uma funçao nativa do PHP, serve para saber se uma variável está definida. Ela basicamente verifica a existência de uma variável, e assim, retorna um valor boleano (true se for verdadeiro, e false se for falso).
 
     // Resolução temporaria de um problema, quando abrimos o arquivo PHP primeiro
     $nome = isset($_GET["nome"])?$_GET["nome"]:"[NÃO INFORMADO]";
