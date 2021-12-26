@@ -1,0 +1,45 @@
+body {
+    background: url(../../ImagemFundoSite/imgfundo.jpg) ;
+    background-position: 100%;
+    background-size: 100%;
+ 
+    font-family: arial, sans-serif;
+}
+
+div {
+    padding: 8px;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background-color: #e0d6d6;
+    margin: 145px auto 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+    word-wrap: break-word;
+}
+
+button.juca {
+    background-color: #121214;
+    color: white;
+    font-size: 18px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} /* Black */
+
+button.juca:hover {
+    background-color: #1e434e; 
+    color: white;
+}
+input.juca1 {
+   width: 100px;
+}
+
+button.juca {
+    cursor: pointer;
+}
+
+button.juca1:hover {
+    cursor: pointer;
+}
