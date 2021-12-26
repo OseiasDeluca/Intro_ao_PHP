@@ -1,0 +1,50 @@
+body {
+    background: url(../../ImagemFundoSite/imgfundo3.jpg);
+    background-position: 100%;
+    background-size: 100%;
+ 
+    font-family: arial, sans-serif;
+}
+
+div {
+    padding: 8px;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background-color: #e0d6d6;
+    margin: 145px auto 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+    word-wrap: break-word;
+    
+}
+
+input {
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    width: 100px;
+}
+
+button.botao {
+    width: 60px;
+    background: #d24d57;
+}
