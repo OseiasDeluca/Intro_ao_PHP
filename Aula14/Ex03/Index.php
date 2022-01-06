@@ -26,8 +26,8 @@
         }
 
         $res = soma(3, 5, 2, 8, 9, 4);
-        // Como a função transformou: $p[0], $p[1], $p[2], $p[3], $p[4], $p[5]
-        // Logo foram recebidos 5 argumentos
+        // Como a função transformou: $p[0], $p[1], $p[2], $p[3], $p[4], $p[5].
+        // Logo foram recebidos 5 argumentos.
         echo "A soma dos valores é $res"
 
     ?>
